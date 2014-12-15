@@ -15,9 +15,20 @@ npm i --save-dev ember-percentages
 ## Usage
 
 ```hbs
-{{percentage 0.87235}}      {{! => 87.235%}}
-{{percentage 0.87235 2}}    {{! => 82.24%}}
-{{percentage someProperty}} {{! => 12.8%}}
+{{percentage '0.87235'}}    {{! => '87.235%'}}
+{{percentage someProperty}} {{! => '12.8%'}}
+```
+
+You can specify the decimal place for rounding:
+
+```hbs
+{{percentage '0.87235' 2}} {{! => '82.24%'}}
+```
+
+There's also a shortcut provided, too:
+
+```hbs
+{{pct '0.1234567' 2}} {{! => '12.35%'}}
 ```
 
 ## Development

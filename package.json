@@ -1,5 +1,6 @@
 {
   "name": "ember-percentages",
+  "description": "A helper for formatting percentages from floats to human readable numbers.",
   "version": "0.0.0",
   "directories": {
     "doc": "doc",
@@ -14,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "John Otander",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^1.0.0",
@@ -31,7 +32,6 @@
     "express": "^4.8.5",
     "glob": "^4.0.5"
   },
-  "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
   ],
