@@ -1,7 +1,7 @@
 {
   "name": "ember-percentages",
   "description": "A helper for formatting percentages from floats to human readable numbers.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -33,7 +33,9 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "percentage",
+    "pct"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
