@@ -16,3 +16,11 @@ test('it correctly rounds the percentage up where appropriate', function() {
 test('it correctly rounds the percentage down where appropriate', function() {
   equal(percentage(0.6788881, 4), '67.8888%');
 });
+
+test('it correctly handles 1', function() {
+  equal(percentage(1), '100%');
+});
+
+test('it correctly handles 0', function() {
+  equal(percentage(0), '0%');
+});
