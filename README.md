@@ -1,15 +1,17 @@
-# Ember Percentages
-
-[![Build Status](https://travis-ci.org/johnotander/ember-percentages.svg?branch=master)](https://travis-ci.org/johnotander/ember-percentages)
+# ember-percentages [![Build Status](https://travis-ci.org/johnotander/ember-percentages.svg?branch=master)](https://travis-ci.org/johnotander/ember-percentages)
 
 A helper for formatting percentages from floats to human readable numbers.
-
-Integrates with [ember-cli](http://ember-cli.com).
 
 ## Installation
 
 ```
-npm i --save-dev ember-percentages
+ember install:addon ember-percentages
+```
+
+Or, for older versions of the Ember CLI:
+
+```
+npm i --save ember-percentages
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 {
   "name": "ember-percentages",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A helper for formatting percentages from floats to human readable numbers.",
   "directories": {
     "doc": "doc",
