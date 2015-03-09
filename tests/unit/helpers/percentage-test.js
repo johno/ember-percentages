@@ -4,7 +4,6 @@ import {
 
 module('PercentageHelper');
 
-// Replace this with your real tests.
 test('it returns a percentage without a trailing .0', function() {
   equal(percentage(0.42), '42%');
 });
