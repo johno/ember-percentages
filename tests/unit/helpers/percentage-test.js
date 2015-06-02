@@ -24,3 +24,7 @@ test('it correctly handles 1', function(assert) {
 test('it correctly handles 0', function(assert) {
   assert.equal(percentage(0), '0%');
 });
+
+test('it returns 0 when passed a falsey value', function(assert) {
+  assert.equal(percentage(null), '0%');
+});
