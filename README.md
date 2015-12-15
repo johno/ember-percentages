@@ -12,20 +12,20 @@ ember install ember-percentages
 
 ```hbs
 {{percentage '0.87235'}}    {{! => '87.235%'}}
-{{percentage '0.87235' 1}}  {{! => '87.2%'}}
+{{percentage '0.87235' decimals=1}}  {{! => '87.2%'}}
 {{percentage someProperty}} {{! => '12.8%'}}
 ```
 
 ##### You can specify the decimal place for rounding
 
 ```hbs
-{{percentage '0.87235' 2}} {{! => '82.24%'}}
+{{percentage '0.87235' decimals=2}} {{! => '82.24%'}}
 ```
 
 ##### There's a shortcut provided, too
 
 ```hbs
-{{pct '0.1234567' 2}} {{! => '12.35%'}}
+{{pct '0.1234567' decimals=2}} {{! => '12.35%'}}
 ```
 
 ## License
