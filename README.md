@@ -12,6 +12,7 @@ ember install ember-percentages
 
 ```hbs
 {{percentage '0.87235'}}    {{! => '87.235%'}}
+{{percentage '0.87235' 1}}  {{! => '87.2%'}}
 {{percentage someProperty}} {{! => '12.8%'}}
 ```
 
@@ -21,7 +22,7 @@ ember install ember-percentages
 {{percentage '0.87235' 2}} {{! => '82.24%'}}
 ```
 
-##### There's also a shortcut provided, too
+##### There's a shortcut provided, too
 
 ```hbs
 {{pct '0.1234567' 2}} {{! => '12.35%'}}
