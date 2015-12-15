@@ -1,10 +1,12 @@
 import Ember from 'ember';
 
-// https://github.com/johnotander/to-percentage
-export function percentage(value, numDecimals) {
-  value = value || 0;
-  value *= 100;
-  return value.toFixed(value % 1 === 0 ? 0 : numDecimals) + '%';
+export function percentage(pct, opts) {
+  opts = opts || {};
+
+  let value = (pct || 0)*100;
+  let numDecimals = opts.decimals || 0;
+
+  return `${value.toFixed(value % 1 === 0 ? 0 : numDecimals)}%`;
 }
 
-export default Ember.Handlebars.makeBoundHelper(percentage);
+export default Ember.Helper.helper(percentage);

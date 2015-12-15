@@ -1,20 +1,18 @@
-import {
-  percentage
-} from 'ember-percentages/helpers/percentage';
+import { percentage } from 'ember-percentages/helpers/percentage';
 import { module, test } from 'qunit';
 
-module('PercentageHelper');
+module('Unit | Helper | percentage');
 
 test('it returns a percentage without a trailing .0', function(assert) {
   assert.equal(percentage(0.42), '42%');
 });
 
 test('it correctly rounds the percentage up where appropriate', function(assert) {
-  assert.equal(percentage(0.6789, 1), '67.9%');
+  assert.equal(percentage(0.6789, { decimals: 1 }), '67.9%');
 });
 
 test('it correctly rounds the percentage down where appropriate', function(assert) {
-  assert.equal(percentage(0.6788881, 4), '67.8888%');
+  assert.equal(percentage(0.6788881, { decimals: 4 }), '67.8888%');
 });
 
 test('it correctly handles 1', function(assert) {
