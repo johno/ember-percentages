@@ -7,4 +7,4 @@ export function percentage(value, numDecimals) {
   return value.toFixed(value % 1 === 0 ? 0 : numDecimals) + '%';
 }
 
-export default Ember.Handlebars.makeBoundHelper(percentage);
+export default Ember.Helper.helper(percentage);

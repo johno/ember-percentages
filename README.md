@@ -1,4 +1,4 @@
-# ember-percentages [![Build Status](https://travis-ci.org/johnotander/ember-percentages.svg?branch=master)](https://travis-ci.org/johnotander/ember-percentages)
+# ember-percentages [![Build Status](https://travis-ci.org/johnotander/ember-percentages.svg?branch=master)](https://travis-ci.org/johnotander/ember-percentages) [![Ember Observer Score](http://emberobserver.com/badges/ember-percentages.svg)](http://emberobserver.com/addons/ember-percentages)
 
 A helper for formatting percentages from floats to human readable numbers.
 

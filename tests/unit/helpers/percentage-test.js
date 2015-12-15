@@ -1,9 +1,7 @@
-import {
-  percentage
-} from 'ember-percentages/helpers/percentage';
+import { percentage } from '../../../helpers/percentage';
 import { module, test } from 'qunit';
 
-module('PercentageHelper');
+module('Unit | Helper | percentage');
 
 test('it returns a percentage without a trailing .0', function(assert) {
   assert.equal(percentage(0.42), '42%');
